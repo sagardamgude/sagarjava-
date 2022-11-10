@@ -14,9 +14,9 @@ public class StudentHash {
 		//adding data
 		std.add(s1);
 		std.add(s2);
-		std.add(s3);
 		std.add(s4);
 		std.add(s5);
+		std.add(s3);
 		std.add(s6);
 		//printing 
 		for (Student student : std) {

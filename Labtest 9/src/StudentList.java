@@ -38,9 +38,13 @@ public class StudentList
 	//printing element
 private static void printArrayList() {
 
-	Collections.sort(list1, new stdid());
-	Collections.sort(list2, new stdid());
-	Collections.sort(list1, new stdname());
+//	Collections.sort(list1, new stdid());
+//	Collections.sort(list2, new stdid());
+	Collections.sort(list1,(o1,o2)-> {
+		return (o1.getName().compareTo(o2.getName()));
+	}
+
+);
 	Collections.sort(list2, new stdname());
 		   
 		   
